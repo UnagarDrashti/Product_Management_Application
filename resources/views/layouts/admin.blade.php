@@ -69,7 +69,7 @@
     <div class="wrapper">
         <!-- Sidebar -->
         <div class="sidebar d-flex flex-column p-3">
-            <h5 class="text-white">Navigation</h5>
+            <h5 class="text-white">Dashboard</h5>
             <ul class="nav nav-pills flex-column mb-auto">
                 <li>
                     <a href="{{ route('admin.dashboard') }}" class="nav-link {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}">
@@ -84,11 +84,6 @@
                 <li>
                     <a href="{{ route('admin.orders.index') }}" class="nav-link">
                         <i class="bi bi-cart"></i> Orders
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link">
-                        <i class="bi bi-gear"></i> Settings
                     </a>
                 </li>
             </ul>
