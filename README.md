@@ -4,6 +4,7 @@
 1. **Multiple Authentication Guards**
    - Separate login, registration, and dashboards for Admin and Customer users.
    - Routes protected via `auth:admin` and `auth:customer` middleware.
+   - Admin User add for using the AdminSeeder
 
 2. **Product Management**
    - Admin can perform CRUD operations on products.
@@ -59,11 +60,6 @@
 - Start local development server.
 - Access app via browser.
 
----
-
-## Testing
-- Use `php artisan test` to run the test suite.
-- Includes feature and unit tests for product CRUD, order placement, and bulk import.
 
 ---
 
